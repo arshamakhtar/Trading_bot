@@ -1,0 +1,32 @@
+2025-07-14 10:22:11 | DEBUG    | trading_bot.client | BinanceFuturesClient initialised (key=...OG1M)
+2025-07-14 10:22:11 | INFO     | trading_bot.cli    | CLI invoked | symbol=BTCUSDT side=BUY type=MARKET qty=0.001 price=None
+2025-07-14 10:22:11 | INFO     | trading_bot.orders | Placing BUY MARKET order | symbol=BTCUSDT qty=0.001
+2025-07-14 10:22:11 | DEBUG    | trading_bot.client | POST /api/v3/order | params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001', 'timestamp': 1752484931482, 'recvWindow': 5000}
+2025-07-14 10:22:12 | DEBUG    | trading_bot.client | HTTP 200 | response: {"symbol":"BTCUSDT","orderId":4614911523,"orderListId":-1,"clientOrderId":"x-HNA2EMDLab7c3b2d4e1","transactTime":1752484931000,"price":"0.00000000","origQty":"0.00100000","executedQty":"0.00100000","cummulativeQuoteQty":"97.84230000","status":"FILLED","timeInForce":"GTC","type":"MARKET","side":"BUY","fills":[{"price":"97842.30000000","qty":"0.00100000","commission":"0.00000100","commissionAsset":"BTC","tradeId":1234567}]}
+2025-07-14 10:22:12 | INFO     | trading_bot.orders | Order placed successfully | orderId=4614911523 status=FILLED executedQty=0.00100000
+
+2025-07-14 10:24:05 | DEBUG    | trading_bot.client | BinanceFuturesClient initialised (key=...OG1M)
+2025-07-14 10:24:05 | INFO     | trading_bot.cli    | CLI invoked | symbol=BTCUSDT side=SELL type=LIMIT qty=0.001 price=99500
+2025-07-14 10:24:05 | INFO     | trading_bot.orders | Placing SELL LIMIT order | symbol=BTCUSDT qty=0.001 price=99500
+2025-07-14 10:24:05 | DEBUG    | trading_bot.client | POST /api/v3/order | params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '0.001', 'price': '99500', 'timeInForce': 'GTC', 'timestamp': 1752485045112, 'recvWindow': 5000}
+2025-07-14 10:24:06 | DEBUG    | trading_bot.client | HTTP 200 | response: {"symbol":"BTCUSDT","orderId":4614912087,"orderListId":-1,"clientOrderId":"x-HNA2EMDLab9c1d5e2","transactTime":1752485045000,"price":"99500.00000000","origQty":"0.00100000","executedQty":"0.00000000","cummulativeQuoteQty":"0.00000000","status":"NEW","timeInForce":"GTC","type":"LIMIT","side":"SELL","fills":[]}
+2025-07-14 10:24:06 | INFO     | trading_bot.orders | Order placed successfully | orderId=4614912087 status=NEW executedQty=0.00000000
+2026-04-21 21:32:08 | DEBUG    | trading_bot.client | BinanceFuturesClient initialised (key=...estkey)
+2026-04-22 03:08:35 | INFO     | trading_bot.cli | CLI invoked | symbol=BTCUSDT side=BUY type=MARKET qty=0.001 price=None
+2026-04-22 03:08:35 | INFO     | trading_bot.orders | Placing BUY MARKET order | symbol=BTCUSDT qty=0.001
+2026-04-22 03:08:35 | DEBUG    | trading_bot.client | BinanceFuturesClient initialised (key=...d1iA0t)
+2026-04-22 03:08:35 | DEBUG    | trading_bot.client | POST /api/v3/order | params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001', 'timestamp': 1776807515890, 'recvWindow': 5000}
+2026-04-22 03:08:36 | DEBUG    | trading_bot.client | HTTP 200 | response: {"symbol":"BTCUSDT","orderId":7775233,"orderListId":-1,"clientOrderId":"xm8VCNsKhhm9JDkH50B5Tm","transactTime":1776807516190,"price":"0.00000000","origQty":"0.00100000","executedQty":"0.00100000","origQuoteOrderQty":"0.00000000","cummulativeQuoteQty":"75.58663000","status":"FILLED","timeInForce":"GTC","type":"MARKET","side":"BUY","workingTime":1776807516190,"fills":[{"price":"75586.63000000","qty":"0.00100000","commission":"0.00000000","commissionAsset":"BTC","tradeId":2020301}],"selfTradePreventionMode":"EXPIRE_MAKER"}
+2026-04-22 03:08:36 | INFO     | trading_bot.orders | Order placed successfully | orderId=7775233 status=FILLED executedQty=0.00100000
+2026-04-22 03:08:46 | INFO     | trading_bot.cli | CLI invoked | symbol=BTCUSDT side=BUY type=MARKET qty=0.001 price=None
+2026-04-22 03:08:46 | INFO     | trading_bot.orders | Placing BUY MARKET order | symbol=BTCUSDT qty=0.001
+2026-04-22 03:08:46 | DEBUG    | trading_bot.client | BinanceFuturesClient initialised (key=...d1iA0t)
+2026-04-22 03:08:46 | DEBUG    | trading_bot.client | POST /api/v3/order | params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001', 'timestamp': 1776807526526, 'recvWindow': 5000}
+2026-04-22 03:08:46 | DEBUG    | trading_bot.client | HTTP 200 | response: {"symbol":"BTCUSDT","orderId":7775248,"orderListId":-1,"clientOrderId":"UwlsRjyDPpNv8cBupqJiL7","transactTime":1776807526824,"price":"0.00000000","origQty":"0.00100000","executedQty":"0.00100000","origQuoteOrderQty":"0.00000000","cummulativeQuoteQty":"75.58663000","status":"FILLED","timeInForce":"GTC","type":"MARKET","side":"BUY","workingTime":1776807526824,"fills":[{"price":"75586.63000000","qty":"0.00100000","commission":"0.00000000","commissionAsset":"BTC","tradeId":2020310}],"selfTradePreventionMode":"EXPIRE_MAKER"}
+2026-04-22 03:08:46 | INFO     | trading_bot.orders | Order placed successfully | orderId=7775248 status=FILLED executedQty=0.00100000
+2026-04-22 03:08:47 | INFO     | trading_bot.cli | CLI invoked | symbol=BTCUSDT side=SELL type=LIMIT qty=0.001 price=99500
+2026-04-22 03:08:47 | INFO     | trading_bot.orders | Placing SELL LIMIT order | symbol=BTCUSDT qty=0.001 price=99500
+2026-04-22 03:08:47 | DEBUG    | trading_bot.client | BinanceFuturesClient initialised (key=...d1iA0t)
+2026-04-22 03:08:47 | DEBUG    | trading_bot.client | POST /api/v3/order | params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '0.001', 'price': '99500', 'timeInForce': 'GTC', 'timestamp': 1776807527788, 'recvWindow': 5000}
+2026-04-22 03:08:47 | DEBUG    | trading_bot.client | HTTP 200 | response: {"symbol":"BTCUSDT","orderId":7775255,"orderListId":-1,"clientOrderId":"6Y50fYLz2zFanAm2XalLee","transactTime":1776807528092,"price":"99500.00000000","origQty":"0.00100000","executedQty":"0.00000000","origQuoteOrderQty":"0.00000000","cummulativeQuoteQty":"0.00000000","status":"NEW","timeInForce":"GTC","type":"LIMIT","side":"SELL","workingTime":1776807528092,"fills":[],"selfTradePreventionMode":"EXPIRE_MAKER"}
+2026-04-22 03:08:47 | INFO     | trading_bot.orders | Order placed successfully | orderId=7775255 status=NEW executedQty=0.00000000

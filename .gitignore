@@ -1,0 +1,15 @@
+# Secrets — never commit these
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Logs (optional — you may want to commit sample logs for the task)
+# logs/
