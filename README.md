@@ -3,7 +3,6 @@
 A minimal Python CLI to place **MARKET** and **LIMIT** orders on the
 [Binance Spot Test Network](https://testnet.binance.vision).
 
-Built as a Python Developer Intern assignment deliverable.
 
 ---
 
